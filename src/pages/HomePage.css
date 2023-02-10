@@ -1,0 +1,6 @@
+.home-wrapper{
+    min-height: 310px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,78 @@
+.orders-wrapper{
+    margin-left: 100px;
+    min-height: 55vh;
+    /* background-color: aqua; */
+    width:168vh;
+    display: flex;
+    margin-top:19px
+}
+
+.orders-container{
+    width: 100%;
+    overflow: auto;
+    display: block;
+    
+}
+
+.pagination-wrapper{
+    width:950px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.edit-period{
+  margin-left:35px
+}
+
+.button--primary {
+    padding: .9rem 1.7rem;
+    color: var(--button-colour);
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    background: var(--button);
+    border: solid 1px var(--button-border);
+    box-shadow: inset 0 0 0 2px var(--colour-white);
+    margin-right: 1em;
+  }
+  
+  .button--primary:hover {
+    text-decoration: underline;
+    background: var(--button-hover);
+    box-shadow: inset 0 0 0 4px var(--colour-white);
+  }
+  
+  .button--primary:active {
+    background: var(--button-active);
+  }
+  
+  .button--primary:visited {
+    background: var(--button-visited);
+  }
+
+  
+.button--primary{
+  --button: hsl(0, 0%, 12%);
+  --button-hover: hsl(0, 0%, 20%);
+  --button-active:  hsl(0, 0%, 30%);
+  --button-visited: hsl(0, 0%, 20%);
+  --button-colour: var(--colour-white);
+  --button-border: var(--colour-black);
+}
+
+
+.button--primary {
+  --button: hsl(346, 100%, 60%);
+  --button-hover: hsl(346, 100%, 70%);
+  --button-active:  hsl(346, 100%, 80%);
+  --button-visited: hsl(346, 100%, 70%);
+  --button-colour: var(--colour-black);
+   --button-border: var(--colour-black);
+} 

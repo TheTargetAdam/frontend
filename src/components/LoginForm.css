@@ -1,0 +1,23 @@
+.login-wrapper{
+    height: 12vh;
+}
+
+.login-form{
+    margin-left:100px;
+    background-color: gray;
+    width: 75vh;
+    margin-top:20px;
+    border-radius: 5%;
+}
+
+.credentials{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addition-buttons{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+

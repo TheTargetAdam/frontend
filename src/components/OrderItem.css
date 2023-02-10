@@ -1,0 +1,59 @@
+.order-container{
+    margin-top:2px;
+    border: 1.5px solid gray;
+    /* border-top:1px solid #333;
+    border-bottom:1px solid #333; */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color:aliceblue;
+}
+
+.order-content{
+    margin-left: 20px;
+}
+.title-cost{
+    display:flex;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.nav-link{
+    margin-right: auto;
+}
+
+.crud-buttons{
+    display: flex;
+    justify-content: end;
+}
+.order-delete-button{
+    margin-top:10px;
+    background-color: red;
+    font-weight: bolder;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.order-edit-button{
+    margin-top:10px;
+    background-color: red;
+    font-weight: bolder;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.modal-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-cost{
+    margin-right: 20px;
+    font-weight: 20px;
+}

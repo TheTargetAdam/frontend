@@ -1,0 +1,28 @@
+/* .Pagination{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+ul.Pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.Pagination li {display: inline;}
+
+ul.Pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.Pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.Pagination li a:hover:not(.active) {background-color: #ddd;}

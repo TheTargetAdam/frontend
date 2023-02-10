@@ -1,0 +1,63 @@
+.credentials_register{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-wrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.register-form{
+    background-color:darkgrey;
+}
+
+
+.credentials_register>div{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.credentials_register{
+    padding-top: 50px;
+}
+
+.type-user>label{
+   margin-left:150px;
+}
+.type-user{
+    margin-left:100px;
+    display: flex;
+}
+.performer-button{
+    margin-left:150px;
+}
+.creator-button{
+    margin-left:17px;
+}
+.button-register{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.pass-label{
+    margin-right: 20px;
+}
+
+.login-label{
+    margin-right: 50px;
+}
+.confirm-label{
+    margin-left: -60px;
+    margin-right: 20px;
+}
+
+.email-label{
+    margin-right:50px
+}
+
+.form-controlemail{
+    margin-left:1px
+}

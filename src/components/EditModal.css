@@ -1,0 +1,10 @@
+.Modal{
+    top:50% ;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-top:10px
+}

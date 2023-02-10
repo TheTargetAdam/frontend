@@ -1,0 +1,39 @@
+
+.all-container{
+    width: 84%;
+    /* height: 66vh; */
+    margin-left: 100px;
+    display: flex;
+    /* margin-top:70px; */
+}
+
+.head-container{
+    margin-top: 20px;
+}
+.left-container{
+    width:30%;
+    background-color:gainsboro;
+}
+.orders-container{
+    width: 600%;
+    overflow: auto;
+    display: block;
+    margin-left: 10px;
+    /* height: 50vh; */
+}
+
+.filter-header{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+.orders-header{
+    border: 2px solid gray ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.paginations-allorders{
+    display: flex;
+    justify-content: center;
+}

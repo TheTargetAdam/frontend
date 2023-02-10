@@ -1,0 +1,22 @@
+.cabinet-wrapper{
+    height:70px ;
+}
+
+.cabinet-container{
+    margin-left: 100px;
+    background-color: gray;
+    width: 70vh;
+    height: 59px;
+    margin-top:20px;
+    border-radius: 5%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.info>button{
+    margin-left: 10px;
+}
